@@ -1,19 +1,13 @@
-# CSE330
-
-Tatsuro Murakami
-
-Student ID: 491963
-
-Username: mTatsuro
+# News Website
+A news website created for a school assignment using HTML, CSS, PHP, and MySQL. 
 
 The URL of the portal: http://ec2-18-118-2-214.us-east-2.compute.amazonaws.com/~tatsuro/module3/news_portal.php
 
 ## How to log in
-Once you click the log in button, you can log in by using one of (username, password) pairs: (wustl, 1853), (alice, 12345), (bob, password), (eve, pizza). We recommend using **(wustl, 1853)**, as the account has posted most stories. You can also choose to register a new user by filling the fields on the bottom of the log in page. 
+Once you click the log in button, you can log in by using one of (username, password) pairs: (alice, 12345), (bob, password), (eve, pizza).  
 
 If you are logged in and you posted a story with your username before, you see two sections on the portal page. At the top you see all the stories posted by anyone, and on the bottom you see all the stories you posted. You can only choose your stories to edit/delete. By clicking the "View comments" option, you are redirected to the comment portal, where you can post a comment for the specific story. Again, you can only edit/delete your comments. 
 
-## Creative Portion
 ### Visit counter
 Our website tracks the number of times each story is visited, store the counter in the database, and display it along with the content of the story. The news are also listed by the descending order of their populariy in the portal page. 
 
